@@ -57,7 +57,6 @@ namespace Vikings
             //app.UseFacebookAuthentication(
             //   appId: "",
             //   appSecret: "");
-
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
                 ClientId = "315619598386-5sma4bu37s4h6and5g6iqvidur3qn9j2.apps.googleusercontent.com",
